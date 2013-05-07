@@ -12,8 +12,8 @@ rating is use to provide label to training data.
 
 In second phase we will try to model the sentiment flow as a time series. Since the reviews are time stamped, we will try
 to make time window and analyse the sentiment flow in that time period e.g lets say we take average of ratings provided
-in a day's interval as the sentiment of reviews on that day if out of 5 stars, the mean rating of a day < '3' then its "negative",
-3<=rating <'3.5' is normal sentiment and rest is positive sentiment. We will try to train a Neural network providing 10
+in a day's interval as the sentiment of reviews on that day if out of 5 stars, the mean rating of a day <3 then its "negative",
+3<=rating <3.5 is normal sentiment and rest is positive sentiment. We will try to train a Neural network providing 10
 days consecutive mean sentiments and will try to predict the 11th day's average sentiment. 
 
 Time Series Modelling:
